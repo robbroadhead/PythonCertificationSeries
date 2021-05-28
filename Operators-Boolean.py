@@ -1,0 +1,45 @@
+# Some examples of numeric operators
+# boolean operators: and, or, not
+
+print("Boolean Operators Examples")
+print("The and operator")
+print("True and True")
+print(True and True)
+print("True and True and False")
+print(True and True and False)
+print("True and False")
+print(True and False)
+print("False and False")
+print(False and False)
+
+print("The or operator")
+print("True or True")
+print(True or True)
+print("False or True or True")
+print(False or True or True)
+print("True or False")
+print(True or False)
+print("False or False")
+print(False or False)
+
+print("The not operator")
+print("not True")
+print(not True)
+print("False or not True or not True")
+print(False or not True or not True)
+print("not True or False")
+print(not True or False)
+print("False or not False")
+print(False or not False)
+print("False or not (True or True)")
+print(False or not (True or True))
+
+print("The + string operator")
+print("a + b")
+print("a" + "b")
+
+print("The * string operator")
+print("a * 5")
+print("a" * 5)
+
+print(("a" + "b") * 3)
