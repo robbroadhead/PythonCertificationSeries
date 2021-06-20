@@ -37,3 +37,5 @@ else:
 for x in range(1,5):
     print(str(x) + " is in the range")
 
+
+print("\nApplication Ended.\n")

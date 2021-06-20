@@ -14,42 +14,34 @@ count = 0
 
 while count < int(value):
     count = count + 1
-    print(greeting.format(count) + "\n")
+    print(greeting.format(str(count)))
 else:
-    print("\nLoop Complete.\n")
+    print("End of Loop")
 
 # infinite loop
-count = 1
-flag = True
-while flag:
-    count = count + 1
-    if count < 10:
-        print(count)
-        continue
-
-    print("Check if complete")
-    if count > 15:
-        flag = False
-else:
-    print("Count:" + str(count))
-
-# Example of break note break skips an else
 while True:
-    count = count + 1
-    if count > 100:
-        break
-
-for x in day_arr:
-    print(str(x) + " is in mid-day array")
-
-sum = 0
-for x in range(0):
-    sum = sum + x
+    print(".")
+    break
 else:
-    print(str(sum))
+    print("End of Infinite Loop")
 
-for x in range(1,5):
+count = 0
+while count < int(value):
+    count = count + 1
+    print(count)
+    if count < 5:
+        continue
+    print(" is a big number")
+else:
+    print("End of Infinite Loop")
+
+colors = ['red', 'green', 'blue', 'white', 'black']
+for x in colors:
+    print(x)
+else:
+    print("End of for loop")
+
+for x in range(5):
     print(str(x) + " is in the range")
-
 
 print("\nApplication Ended.\n")
