@@ -55,3 +55,11 @@ print(q.join(r))
 print("r.join(q)")
 print (r.join(q))
 
+myString = "lazy dog jumps over log"
+print("find()")
+print(myString.find("o"))
+print("rfind()")
+print(myString.rfind("o"))
+
+
+
