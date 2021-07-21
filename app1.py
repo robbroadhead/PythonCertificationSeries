@@ -10,8 +10,8 @@ for item in sys.argv:
         print("--> {}".format(item.replace("-","")))
 
 # Some playing with numbers
-x = 1 + 3 * 5 - 6 / 3 + (9*6)
-1 + 15 - 2 + 54
-16 - 2 + 54
-14 + 54
-68
+# x = 1 + 3 * 5 - 6 / 3 + (9*6)
+# 1 + 15 - 2 + 54
+# 16 - 2 + 54
+# 14 + 54
+# 68
